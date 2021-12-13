@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <!--carga de librerías-->
+    <!--carga normalize-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--enlace a fuente externa-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <!--enlace a estilos propios-->
+    <link rel="preload" href="css/style.css" as="style"><!--preload, mejora la performance de los estilos-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Carlos Silva Jorquera <span>Freelancer</span></h1>
+    </header>
+
+    <!--barra de navegacion-->
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#acerca-de-mi">Acerca de mi</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
+    <!--fin barra de navegacion-->
+
+    <!--seccion hero-->
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Servicios Freelancer</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+
+                <p>Santiago, Puente Alto</p>
+            </div>
+            
+            <a class="boton" href="#">Contactar</a>
+        </div>
+    </section>
+    <!--fin seccion hero-->
+
+    <!--contenido principal-->
+    <main class="contenedor">
+        <section id="acerca-de-mi" class="sombra">
+            <h2>Acerca de mi</h2>
+            <div class="acerca-de-mi">                     
+                <p>
+                    Etiam accumsan nec lorem ut fringilla. Donec congue scelerisque convallis. Sed mi ante, molestie vulputate sem quis, sagittis lacinia ex. Quisque placerat lectus et tellus sollicitudin pulvinar.
+                    In ultrices, nunc ac rutrum consectetur, ex nulla dignissim diam, sit amet gravida quam libero at turpis.
+                    Aenean lacus nunc, pharetra quis dictum in, viverra eget erat.
+                    Etiam pulvinar interdum orci sit amet molestie. Sed ante orci, mollis nec tincidunt lobortis, fringilla id ante. 
+                </p>
+            </div>      
+        </section>
+
+        <!--servicios-->
+        <section id="servicios" class="sombra">
+            <h2>Mis servicios</h2>            
+            <div class="servicios">
+                <div class="servicio">
+                    <h3>Aplicaciones Web</h3>
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
+                            <circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
+                            <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+                            <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
+                        </svg>
+                    </div>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam inventore, corporis tempora corrupti
+                        velit nulla. Quisquam error alias voluptatem iste corporis.
+                    </p>
+                </div>
+                <div class="servicio">
+                    <h3>Gestión de Proyectos</h3>
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="40"
+                            height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M9 12l2 2l4 -4" />
+                            <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                        </svg>
+                    </div>                   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam inventore, corporis tempora corrupti
+                        velit nulla. Quisquam error alias voluptatem iste corporis.
+                    </p>
+                </div>
+                <div class="servicio">
+                    <h3>Gestión de Servicios</h3>
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-table" width="40" height="40"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <rect x="4" y="4" width="16" height="16" rx="2" />
+                            <line x1="4" y1="10" x2="20" y2="10" />
+                            <line x1="10" y1="4" x2="10" y2="20" />
+                        </svg>
+                    </div>                   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam inventore, corporis tempora corrupti
+                        velit nulla. Quisquam error alias voluptatem iste corporis.
+                    </p>
+                </div>
+            </div>            
+        </section>
+        <!--fin servicios-->  
+
+        <!--seccion con el formulario de contacto-->
+        <section id="contacto" class="sombra">
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctame llenando todos los campos</legend>
+                    <div class="contenedor-campos">                    
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu teléfono">
+                        </div>
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu email">
+                        </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>    
+                    <div class="flex alinear-derecha">
+                        <button class="boton w-sm-100" type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <!--fin seccion con el formulario de contacto-->
+
+    </main>
+    <!--fin contenido principal-->
+
+    <footer class="footer">
+        <p>&copy; 2021. Todos los derechos reservados. Carlos Silva Jorquera Freelancer</p>
+    </footer>
+</body>
+
+</html>
